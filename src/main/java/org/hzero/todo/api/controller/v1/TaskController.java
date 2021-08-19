@@ -28,6 +28,7 @@ public class TaskController extends BaseController {
     public TaskController(TaskService taskService, TaskRepository taskRepository) {
         this.taskService = taskService;
         this.taskRepository = taskRepository;
+        System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
     }
     /**
      * 注意分页参数是 io.choerodon.mybatis.pagehelper.domain.PageRequest;
